@@ -10,7 +10,7 @@
     "content_scripts": [ {
         "all_frames": true,
         "js": [ "habr.js" ],
-        "matches": [ "*://habrahabr.ru/feed/all/*", "*://habrahabr.ru/posts/top/daily/*" ]
+        "matches": [ "*://habrahabr.ru/all/*", "*://habrahabr.ru/feed/all/*", "*://habrahabr.ru/feed/interesting/*" ]
     } ],
     "permissions": [
         "*://*/"
