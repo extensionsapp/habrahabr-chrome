@@ -19,8 +19,7 @@ var habr = {
     feed: function(host) {
 
         var href = location.href;
-        href = href.replace('habrahabr.ru/posts/top/daily/',host + '/interesting/');
-        href = href.replace('habrahabr.ru/feed',host);
+        href = href.replace('habrahabr.ru',host);
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", href, true);
