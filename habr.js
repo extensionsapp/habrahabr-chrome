@@ -41,8 +41,8 @@ var habr = {
 
                     post.getElementsByClassName('title')[0].setAttribute('style','padding-right:71px;');
                     post.getElementsByClassName('favorite')[0].parentNode.removeChild(post.getElementsByClassName('favorite')[0]);
-                    post.getElementsByClassName('plus')[0].parentNode.removeChild(post.getElementsByClassName('plus')[0]);
-                    post.getElementsByClassName('minus')[0].parentNode.removeChild(post.getElementsByClassName('minus')[0]);
+                    post.getElementsByClassName('js-plus')[0].parentNode.removeChild(post.getElementsByClassName('js-plus')[0]);
+                    post.getElementsByClassName('js-minus')[0].parentNode.removeChild(post.getElementsByClassName('js-minus')[0]);
 
                     habr.addChild(post.innerHTML, postDate, host, posts[i].id);
 
